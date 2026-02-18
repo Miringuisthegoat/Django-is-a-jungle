@@ -6,3 +6,6 @@ def index(request):
 
 def gallery(request):
     return render(request,'Gallery.html')
+
+def services(request):
+    return render(request,'services.html')

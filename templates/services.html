@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services page</title>
+
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static  'bootstrap/css/bootstrap.min.css' %}">
+   <script src="{% static  'bootstrap/js/bootstrap.min.js' %}"></script>
+
+</head>
+<body>
+    <h1 class="text-center text-danger">Our Services</h1>
+
+<a href="{%url 'index'%}">Visit Home</a>
+<br>
+<a href="{%url 'gallery'%}">Gallery</a>
+
+
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius aut dicta nesciunt tenetur perspiciatis explicabo ex esse quam at. Officia asperiores voluptate molestias neque iure adipisci mollitia quis maiores ex.
+    Iure in, deserunt culpa quam harum porro recusandae incidunt. Vero commodi in, magni modi, provident repellat culpa veritatis debitis optio eligendi odio repellendus natus maiores deserunt. Odit modi aut sapiente!
+    Ipsa quam commodi eum non autem optio officia odio tenetur et ipsum, exercitationem quis laudantium praesentium nam vel harum eveniet maiores fugiat? Est maiores quasi voluptatum minus labore cumque iusto.</p>
+
+<button class="btn btn-outline-primary">Get Started</button>
+<br><br><br>
+<table class="table table-bordered table-hover table-striped table-secondary">
+
+    <tr>
+        <th>#</th>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    
+    <tr>
+        <td>1</td>
+        <td>Wireless Laptop</td>
+        <td>Electonics</td>
+        <td>$899.99</td>
+        <td>45</td>
+        <td>In Stock</td>
+        <td>
+            <a href="" class="btn btn-outline-success">View</a>
+            <a href="" class="btn btn-outline-warning">Edit</a>
+            <a href="" class="btn btn-outline-danger">Delete</a>
+        </td>
+        
+    </tr>
+
+
+    <tr>
+        <td>2</td>
+        <td>Smartphone Pro</td>
+        <td>Electonics</td>
+        <td>$699.99</td>
+        <td>12</td>
+        <td>Low Stock</td>
+        <td>
+           <a href="" class="btn btn-outline-success">View</a>
+            <a href="" class="btn btn-outline-warning">Edit</a>
+            <a href="" class="btn btn-outline-danger">Delete</a>
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Wireless Headphones</td>
+        <td>Audio</td>
+        <td>$149.99</td>
+        <td>78</td>
+        <td>In Stock</td>
+        <td>
+           <a href="" class="btn btn-outline-success">View</a>
+            <a href="" class="btn btn-outline-warning">Edit</a>
+            <a href="" class="btn btn-outline-danger">Delete</a>
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Gaming Tablet</td>
+        <td>Electonics</td>
+        <td>$499.99</td>
+        <td>0</td>
+        <td>Out Stock</td>
+        <td>
+            <a href="" class="btn btn-outline-success">View</a>
+            <a href="" class="btn btn-outline-warning">Edit</a>
+            <a href="" class="btn btn-outline-danger">Delete</a>
+        </td>
+
+    </tr>
+
+</table>
+
+
+
+</body>
+</html>
